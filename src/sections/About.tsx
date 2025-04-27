@@ -33,7 +33,7 @@ export default function AboutUs() {
         {/* Right content (Image with play button) */}
         <div className="relative">
           <Image
-            src="/assets/aboutus-placeholder.jpg"
+            src="/assets/images/aboutus-placeholder.jpg"
             alt="Children walking"
             width={600}
             height={400}
@@ -41,7 +41,7 @@ export default function AboutUs() {
           />
           <div className="absolute inset-0 flex items-center justify-center">
             <button className="bg-white rounded-full p-4 shadow-lg">
-              <Image src="/assets/play-icon.svg" alt="Play" width={24} height={24} />
+              <Image src="/assets/images/play-icon.svg" alt="Play" width={24} height={24} />
             </button>
           </div>
         </div>
@@ -56,7 +56,7 @@ export default function AboutUs() {
           {Array(6).fill(0).map((_, index) => (
             <Image
               key={index}
-              src={`/assets/logo-placeholder-${index + 1}.png`}
+              src={`/assets/images/logo-placeholder-${index + 1}.svg`}
               alt="Supporter logo"
               width={100}
               height={40}

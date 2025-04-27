@@ -29,10 +29,10 @@ export default function WhatWeDo() {
           <div className="flex flex-col gap-6 border-l-2 border-gray-300 pl-6 mt-6">
             {/* One Service Item */}
             {[
-              { title: "Family support", icon: "/assets/icon-family.svg" },
-              { title: "Health benefits", icon: "/assets/icon-health.svg" },
-              { title: "Scholarships", icon: "/assets/icon-scholarship.svg" },
-              { title: "Therapy", icon: "/assets/icon-therapy.svg" },
+              { title: "Family support", icon: "/assets/images/icon-family.jpg" },
+              { title: "Health benefits", icon: "/assets/images/icon-health.jpg" },
+              { title: "Scholarships", icon: "/assets/images/icon-scholarshi.jpg" },
+              { title: "Therapy", icon: "/assets/images/icon-therapy.jpg" },
             ].map((service, index) => (
               <div key={index} className="flex items-start gap-4">
                 <div className="flex-shrink-0">
@@ -52,7 +52,7 @@ export default function WhatWeDo() {
         {/* Right content - Image */}
         <div className="relative">
           <Image
-            src="/assets/whatwedo-placeholder.jpg"
+            src="/assets/images/whatwedo-placeholder.jpg"
             alt="Child listening"
             width={600}
             height={400}

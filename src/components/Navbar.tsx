@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <header className="w-full flex items-center justify-between py-4 px-8 bg-white shadow-sm">
       <Link href="/">
-        <Image src="/assets/logo.svg" alt="Logo" width={150} height={40} />
+        <Image src="/assets/images/logo.png" alt="Logo" width={50} height={10} />
       </Link>
       <nav className="hidden md:flex gap-8 items-center">
         {["Home", "About us", "What We Do", "Media", "Contact"].map((item) => (

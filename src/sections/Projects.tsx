@@ -6,17 +6,17 @@ const projects = [
   {
     title: "Mission smile 1k: Outdoor charity",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
-    image: "/assets/project1-placeholder.jpg",
+    image: "/assets/images/projects-placeholder-1.jpg",
   },
   {
     title: "Weekly excursions",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
-    image: "/assets/project2-placeholder.jpg",
+    image: "/assets/images/projects-placeholder-2.jpg",
   },
   {
     title: "Monthly public awareness",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
-    image: "/assets/project3-placeholder.jpg",
+    image: "/assets/images/projects-placeholder-3.jpg",
   },
 ];
 

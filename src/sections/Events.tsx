@@ -20,7 +20,7 @@ export default function ContributionAndEvents() {
         >
           {/* Background image */}
           <Image
-            src="/assets/contribution-banner.jpg" // Temporary placeholder
+            src="/assets/images/contribution-banner.jpg" // Temporary placeholder
             alt="Contribution Banner"
             width={1200}
             height={400}
