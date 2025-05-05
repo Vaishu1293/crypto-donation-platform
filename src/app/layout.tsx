@@ -1,5 +1,7 @@
 // layout.tsx
 
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 import "./globals.css";
 import { Jost, Roboto } from "next/font/google";
 
@@ -25,7 +27,13 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${jost.variable} ${roboto.variable}`}>
-      <body>{children}</body>
+      <body className="flex flex-col min-h-screen">
+        <Navbar />
+        <main className="flex-1 container mx-auto px-4 py-8">
+          {children} {/* Dynamic page content here */}
+        </main>
+        <Footer />
+      </body>
     </html>
   );
 }
