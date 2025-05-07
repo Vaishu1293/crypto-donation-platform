@@ -26,7 +26,11 @@ const Navbar = () => {
           Contact
         </Link>
       </nav>
-      <Button variant="dark">Donate</Button>
+      <Link href="/donation">
+      <button className="bg-[#1e293b] hover:bg-[#111827] text-white font-semibold px-5 py-2 rounded">
+        Donate
+      </button>
+      </Link>
     </header>
   );
 };
