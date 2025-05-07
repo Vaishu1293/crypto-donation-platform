@@ -60,7 +60,7 @@ export default function Projects() {
               <div className="absolute inset-0 p-6 flex flex-col justify-end text-white">
                 <h3 className="font-bold text-lg mb-2">{project.title}</h3>
                 <p className="text-sm mb-4">{project.description}</p>
-                <Link href="#">
+                <Link href="/projects">
                   <button className="bg-white text-black font-medium py-2 px-4 rounded hover:bg-gray-100 transition-all text-sm">
                     Learn more
                   </button>
