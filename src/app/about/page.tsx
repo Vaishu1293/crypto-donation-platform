@@ -1,7 +1,7 @@
+import ContributionAndEvents from "@/sections/Events";
 import AwardsRecognition from "./AwardsRecognition";
 import KnowAboutUs from "./KnowAboutUs";
 import MeetOurTeam from "./MeetOurTeam";
-import OurEvents from "./OurEvents";
 
 export default function AboutPage() {
   return (
@@ -9,7 +9,7 @@ export default function AboutPage() {
       <KnowAboutUs/>
       <AwardsRecognition/>
       <MeetOurTeam/>
-      <OurEvents/>
+      <ContributionAndEvents/>
     </>
   );
 }
